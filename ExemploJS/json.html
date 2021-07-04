@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var carroHilux = {
+            nome: "Josefina",
+            "Idade" : 85,
+            details: {
+                cor: "Laranja",
+                tamanho: 20
+            }
+        }
+        for(var chave in carroHilux){
+            console.log(chave + ' --> ' + carroHilux[chave])
+        }
+
+        var carros = new Array();
+        carros[0] = "Fox"
+        carros[1] = "Celta"
+        carros[2] = "Ecosport"
+
+        console.log(carros)
+
+        carros.push('Corolla')
+
+        console.log(carros)
+
+    </script>
+</body>
+</html>

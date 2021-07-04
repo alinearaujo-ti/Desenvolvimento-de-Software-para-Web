@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <body>
+        <p>Javascriptpode alterar os atributos dos elementos HTML.</p>
+
+        <p>Vamos alterar o endereço de uma imagem de forma dinâmica.</p>
+
+        <button type="button" onclick="ligarLamp()">Ligar Lampada</button>
+
+        <img id="lampada" src="LampOff.jpg">
+
+        <button type="button" onclick="desligarLamp()">Desligar Lampada</button>
+
+        <script>
+
+        function ligarLamp(){
+            document.getElementById('lampada').src="LampOn.jpg";
+        }
+
+        function desligarLamp(){
+            document.getElementById('lampada').src="LampOff.jpg";
+        }
+        </script>
+
+    </body>
+</html>

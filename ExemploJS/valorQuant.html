@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Calcular(){
+            var valor = document.getElementById('valor').value
+            var quantidade = document.getElementById('quantidade').value
+
+            var resultado = document.getElementById('resultado').value = parseFloat(valor) * parseFloat(quantidade)
+        } 
+    </script>
+
+Digite aqui o preço do produto: <input type="text" id="valor" onchange="Calcular()"><br>
+Digite aqui a quantidade de produtos: <input type="text" id="quantidade" onchange="Calcular()"><br>
+<br><br>
+Resultado: <input type="text" id="resultado" disabled><br>
+
+</body>
+</html>

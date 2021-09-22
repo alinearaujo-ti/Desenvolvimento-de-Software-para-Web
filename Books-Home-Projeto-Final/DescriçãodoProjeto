@@ -1,0 +1,34 @@
+Nome do sistema: Book´s Home
+Equipe: A
+Membros: Aline Araujo, Breno Nobre, Lorena Amaro, Getúlio Macedo e Pedro Gabriel.
+Matéria: Engenharia de Software
+Professor: Camilo Almendra
+
+Descrição do sistema: Sistema de troca de livros, onde os usuários pode troca seus livros e realizar negociações através do contato direto com o usuário.
+
+Linguagens usadas:
+  Front-end: HTML, CSS e JAVASCRIPT e Bootstrap.
+  Back-end: Node JS, Express, Knex, Axios e Cors.
+
+Banco: PostgreeSQL
+
+Teste: Postman
+
+Ferramenta de modelagem: Asth UML
+
+Requisitos: Trello
+
+Link´s
+
+ GitHub: https://github.com/Pedro-gabriel/Books-Home.git
+
+Documentação:  https://docs.google.com/document/d/10sk5rP8T9jPMIgkxXiuVQN-bw423OBkAPOyO5u63yvw/edit?usp=sharing
+
+Controle de requisitos:  https://trello.com/invite/b/bn7PgOst/0d8bccff40c226ced64ac96cb2f34070/trabalho-de-eng-de-soft
+
+Testes: https://www.getpostman.com/collections/99bf3644fccac8f19f7b
+
+Diagrama de componentes
+  - Componentes: https://drive.google.com/file/d/1FlJqaTX7ZEhhbHdbp84d3i4DoBXTC8Kz/view?usp=sharing
+  
+  - Classes: https://drive.google.com/file/d/1IqDkINHrt2cQmuZX3H4C-TNkZx5qMixK/view?usp=sharing
